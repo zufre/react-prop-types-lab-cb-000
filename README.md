@@ -1,8 +1,8 @@
 # React PropTypes Lab
 
-## Objectives
-1. Practice using PropTypes declarations
-2. Describe when to use each declaration
+## Overview
+
+In this lab, you'll use PropTypes declaration in a variety of scenarios. 
 
 ## A new job
 ![Michael Scott](https://media.giphy.com/media/NXOF5rlaSXdAc/giphy.gif)
