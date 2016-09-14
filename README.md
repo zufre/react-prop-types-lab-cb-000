@@ -5,7 +5,7 @@
 In this lab, you'll use PropTypes declaration in a variety of scenarios. 
 
 ## A new job
-![Michael Scott](https://media.giphy.com/media/NXOF5rlaSXdAc/giphy.gif)
+![Michael Scott](https://media.giphy.com/media/jOpLbiGmHR9S0/giphy.gif)
 
 Welcome to your first day at... Dunder Mifflin! Your job is to make sure the company's products are catalogued on the
 website. Since we like to be modern, we'll use React to display the product information. Since our database is pretty
