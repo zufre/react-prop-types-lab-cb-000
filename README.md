@@ -7,9 +7,7 @@ In this lab, you'll use PropTypes declaration in a variety of scenarios.
 ## A new job
 ![Michael Scott](https://media.giphy.com/media/jOpLbiGmHR9S0/giphy.gif)
 
-Welcome to your first day at... Dunder Mifflin! Your job is to make sure the company's products are catalogued on the
-website. Since we like to be modern, we'll use React to display the product information. Since our database is pretty
-old, we'll be sure to add PropTypes to our component so that we know we're passing in the right props.
+Welcome to your first day at... Dunder Mifflin! Your job is to make sure the company's products are catalogued on the website. Since we like to be modern, we'll use React to display the product information. Since our database is pretty old, we'll be sure to add PropTypes to our component so that we know we're passing in the right props.
 
 1. In the `components/Product.js` file, create a `Product` React component.
 2. This component has the following props:
