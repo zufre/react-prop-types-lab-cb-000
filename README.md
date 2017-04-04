@@ -20,4 +20,4 @@ Welcome to your first day at... Dunder Mifflin! Your job is to make sure the com
 function!
 
 ## Resources
-- [React: Prop Validation](https://facebook.github.io/react/docs/reusable-components.html#prop-validation)
+- [React: TypeChecking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
