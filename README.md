@@ -19,5 +19,9 @@ Welcome to your first day at... Dunder Mifflin! Your job is to make sure the com
 3. Note: for the `weight` prop, we'll need custom logic. Remember that it's possible to write your own prop validator
 function!
 
+## Testing
+
+Note: This lab might require you to restart the test watcher after changing your code.
+
 ## Resources
 - [React: TypeChecking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
