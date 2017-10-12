@@ -1,9 +1,11 @@
 import React from 'react';
 import { expect } from 'chai';
-import { shallow } from 'enzyme';
+import Enzyme, { shallow } from 'enzyme';
 import sinon from 'sinon';
-
+import Adapter from 'enzyme-adapter-react-16';
 import Product from '../src/components/Product';
+
+Enzyme.configure({ adapter: new Adapter() })
 
 const ALL_PROPS_VALID = {
   name: 'Some product',
