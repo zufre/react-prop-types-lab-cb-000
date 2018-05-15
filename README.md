@@ -16,12 +16,13 @@ Welcome to your first day at... Dunder Mifflin! Your job is to make sure the com
     *  `hasWatermark`: a boolean — optional, defaults to false
     *  `color`: a string — required, can only be `'white'`, `'eggshell-white'` or `'salmon'`
     *  `weight`: a number — required, ranges between 80 and 300
-3. Note: for the `weight` prop, we'll need custom logic. Remember that it's possible to write your own prop validator
-function!
+3. Note: for the `weight` prop, we'll need custom logic. It's possible to write your own prop validator function. Make sure you reference the [documentation][proptypes-documentation] and use your Google-Fu if you are having trouble!
 
 ## Testing
 
 Note: This lab might require you to restart the test watcher after changing your code.
 
 ## Resources
-- [React: TypeChecking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
+- [React: TypeChecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+[proptypes-documentation]: https://reactjs.org/docs/typechecking-with-proptypes.html
