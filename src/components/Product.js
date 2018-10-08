@@ -24,6 +24,6 @@ Product.propTypes = {
   name: PropTypes.string.isRequired,
   producer: PropTypes.string,
   hasWatermark: PropTypes.bool,
-  color: PropTypes.oneOf(['white'],['eggshell-white'],['salmon']).isRequired,
-  weight: propTypes.number.isRequired
+  color: PropTypes.oneOf(['white','eggshell-white','salmon']).isRequired,
+  weight: function()
 };
