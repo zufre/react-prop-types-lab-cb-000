@@ -30,8 +30,5 @@ Product.propTypes = {
       return new Error('A weight value is required')
     }else if (isNaN(props[propName])) {
       return new Error('The weight is not a number')
-    }else if (props[propName] <80 || props[propName] >300) {
-      
-    }
-  }
-};
+    }else if (props[propName] < 80 || props[propName] > 300) {
+      return new Error('Value has to be between 80 and 300')
