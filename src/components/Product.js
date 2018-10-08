@@ -25,7 +25,7 @@ Product.propTypes = {
   producer: PropTypes.string,
   hasWatermark: PropTypes.bool,
   color: PropTypes.oneOf(['white','eggshell-white','salmon']).isRequired,
-  weight: function(props, propName, componentName) {
+  weight: (props, propName, componentName) => {
     if (props[propName] === undefined) {
       return new Error('A weight value is required')
     }else if (isNaN(props[propName])) {
